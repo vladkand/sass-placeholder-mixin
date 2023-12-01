@@ -1,0 +1,35 @@
+//
+
+.footter__wrapper {
+   display: flex;
+   align-items: center;
+
+   border-top: 1px solid $color-footer-border;
+}
+
+.service-list {
+   display: flex;
+   margin-left: auto;
+}
+
+.service__item + .service__item {
+   margin-left: 80px;
+}
+
+.service__link {
+   display: inline-block;
+   padding-top: 22px;
+   padding-bottom: 22px;
+
+   color: inherit;
+
+   font-size: 24px;
+   letter-spacing: 0.48px;
+
+   @extend %transition;
+
+   &:focus,
+   &:hover {
+      color: $color-hover;
+   }
+}

@@ -1,0 +1,23 @@
+.contact__txt {
+   padding-right: 114px;
+}
+
+.subscribe {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+
+.subscribe__input {
+   border: 1px solid $color-first;
+   border-radius: 10px;
+   width: 425px;
+   padding: 20px 30px;
+}
+
+.subscribe__btn {
+   /* flex-shrink: 0; */
+   padding: 20px 56px;
+   flex-grow: 2;
+   margin-left: 30px;
+}

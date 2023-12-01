@@ -1,0 +1,19 @@
+.about__list {
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.about__item {
+   text-align: center;
+}
+
+.about__txt {
+   line-height: 1.8;
+}
+
+.about__value {
+   color: $color-about-value;
+   font-size: 48px;
+   font-weight: 600;
+}

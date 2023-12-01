@@ -1,0 +1,78 @@
+.test {
+   margin-top: 20px;
+   padding: 20px;
+   // display: flex;
+   // justify-content: space-around;
+   // align-items: center;
+   outline: 1px solid;
+   // ==PLACEHOLD
+   @extend %just-between;
+
+   // ------MIXIN
+   @include flextype();
+}
+
+.test-midl {
+   padding: 20px;
+   // display: flex;
+   // justify-content: space-around;
+   // align-items: center;
+
+   outline: 1px solid;
+   // ==PLACEHOLD
+   // @extend %just-araund;
+
+   // ------MIXIN
+   @include flextype($align: flex-start);
+}
+
+.test-last {
+   & .list-two {
+      padding: 0;
+      margin: 0;
+      // color: red;
+      outline: none;
+      background-color: black;
+   }
+   padding: 20px;
+   // display: flex;
+   // justify-content: space-around;
+   // align-items: center;
+
+   outline: 1px solid;
+   // ==nev
+   // @extend %just-start;
+
+   // ------MIXIN
+   @include flextype($justify: space-around, $align: flex-end);
+}
+
+.test__list-one,
+.list-one {
+   display: flex;
+   // align-items: end;
+   // padding-top: 20px;
+   // padding-bottom: 20px;
+}
+
+.test__list-two,
+.list-two {
+   display: flex;
+   // align-items: end;
+   // padding-top: 30px;
+   // padding-bottom: 20px;
+}
+
+.list-one__item {
+   padding: 30px;
+
+   outline: 1px solid;
+}
+
+.list-two__item {
+   padding: 10px;
+
+   outline: 1px solid;
+}
+
+// --------------TEST-LAST---------

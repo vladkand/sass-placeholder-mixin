@@ -1,0 +1,22 @@
+// Кнопки, Кнопки-ссылки
+
+.button,
+.btn {
+   display: inline-block;
+   border-radius: 10px;
+   cursor: pointer;
+
+   @extend %transition;
+
+   &:hover,
+   &:focus {
+      background-color: $color-hover;
+      color: $color-dark-btn;
+      border-color: transparent;
+   }
+}
+
+.btn--dark {
+   color: $color-dark-btn;
+   background-color: $bg-btn-color;
+}

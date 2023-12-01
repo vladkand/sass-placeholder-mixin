@@ -1,0 +1,53 @@
+// .header {
+//    padding-top: 55px;
+//    padding-bottom: 55px;
+// }
+
+.header__box {
+   @extend %flex-aling-center;
+   // display: flex;
+   // align-items: center;
+}
+
+.logo {
+   // display: inline-flex;
+   font-size: 36px;
+   color: $color-title;
+
+   &__accent {
+      color: $color-brand;
+   }
+}
+
+.nav {
+   @extend %flex-aling-center;
+   margin-left: 236px;
+}
+
+.nav__item + .nav__item {
+   margin-left: 50px;
+}
+
+.nav__link {
+   display: block;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   font-weight: 500;
+   color: $color-second;
+
+   @extend %transition;
+
+   &:hover,
+   &:focus {
+      color: $color-hover;
+   }
+}
+
+.header__btn {
+   margin-left: 121px;
+   padding: 20px 56px;
+   flex-grow: 1;
+
+   background-color: $bg-first;
+   border: 2px solid $color-second;
+}

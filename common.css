@@ -1,0 +1,135 @@
+/*  */
+/* :root {
+   --first-color: #8f95a5;
+   --brand-color: #263238;
+   --bg-color: #ffffff;
+   --bg-second-color: #f5f5f5;
+   --bg-price-color: #eeeeee;
+   --logo-accent-color: #939393;
+
+   --title-color: #000000;
+   --second-color: #263238;
+
+   --decor-color: #2a3246;
+   --decor-second-color: #8f95a5;
+
+   --btn-bg-color: #263238;
+   --hover-color: tomato;
+} */
+
+/*  */
+
+body {
+   font-family: 'Poppins', sans-serif;
+
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.5;
+
+   color: var(--first-color);
+
+   background-color: var(--bg-color);
+}
+
+/* --- reset --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+
+ul,
+ol {
+   margin: 0;
+   padding: 0;
+}
+
+button {
+   cursor: pointer;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+
+   outline: 1px solid red;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.list {
+   list-style: none;
+}
+/* ========= */
+
+.title {
+   font-size: 48px;
+   color: var(--title-color);
+}
+
+.pretitle,
+.subtitle {
+   font-size: 30px;
+   color: var(--brand-color);
+   /*  */
+
+   font-weight: 600;
+   line-height: 1.6; /* 160% */
+}
+
+/* --- Кнопки-ссылки --- */
+
+.btn {
+   display: inline-block;
+
+   border-radius: 10px;
+   color: var(--bg-color);
+   background-color: var(--btn-bg-color);
+}
+
+.btn:hover,
+.btn:focus {
+   background-color: var(--hover-color);
+   color: var(--bg-color);
+}
+
+/* CONTAINER */
+.container {
+   width: 1368px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+
+   /* background-color: beige; */
+
+   /* outline: 2px solid teal; */
+   outline: 1px solid blue;
+}
+
+.title {
+   color: #000;
+
+   font-size: 48px;
+
+   font-weight: 600;
+   line-height: 1.67; /* 166.667% */
+}
+
+/* Centered */
+.title--centered {
+   text-align: center;
+}
+
+.subtitle {
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+
+}

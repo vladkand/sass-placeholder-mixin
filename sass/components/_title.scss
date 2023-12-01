@@ -1,0 +1,20 @@
+.pretitle,
+.subtitle {
+   font-size: 30px;
+   color: $color-subtitle;
+
+   font-weight: 600;
+   line-height: 1.6; /* 160% */
+}
+
+/* Centered */
+.title--centered {
+   text-align: center;
+}
+
+.title {
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 1.67; /* 166.667% */
+   color: $color-title;
+}
